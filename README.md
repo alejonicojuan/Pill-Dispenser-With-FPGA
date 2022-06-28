@@ -3,10 +3,10 @@
 # Autores 🖋️
 
 * Juan Manuel Sarmiento 🧑‍🔧
-* Nicolas Moreno Zamora 🧑‍💻
-* Alejandro Fernandez Astaiza 🧑‍💼
+* Nicolás Moreno Zamora 🧑‍💻
+* Alejandro Fernández Astaiza 🧑‍💼
 
-Este es el repositorio del proyecto final de la asignatura **Electrónica Digital II** del semestre 2022-1 (**Universidad Nacional de Colombia - Sede Bogotá**). A continuación se mostrará el proyecto de un Dispensador de medicamentos conformado por una arquitectura de SoC, donde a partir de un micropocesador y diferentes periféricos se realizan operaciones que permiten al dispensador de medicamentos indicarle a un paciente en que horario y que medicamentos debe consumir especificamente.
+Este es el repositorio del proyecto final de la asignatura **Electrónica Digital II** del semestre 2022-1 (**Universidad Nacional de Colombia - Sede Bogotá**). A continuación se mostrará el proyecto de un Dispensador de medicamentos conformado por una arquitectura de SoC, donde a partir de un microprocesador y diferentes periféricos se realizan operaciones que permiten al dispensador de medicamentos indicarle a un paciente en que horario y que medicamentos debe consumir específicamente.
 
 
 Los periféricos que se utilizaron en el proyecto, para complementar al procesador, fueron el asistente de voz de Alexa, el modulo Nodemcu V3 (ESP 8266) y un motor paso a paso (28byj-48).
