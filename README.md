@@ -21,9 +21,6 @@ El mapa de memoria se encuentra detalladamente en el archivo Soc_MemoryMap.csv, 
     <img src="https://user-images.githubusercontent.com/108309588/176072053-f07c7882-f81c-48ca-8262-724c5385cf17.png" />
 </p>
 
-	
-
-
 
 
 A continuación haremos una breve explicación del Soc, el firmware y los perfiféricos integrados al Soc junto a sus respectivos links en donde se puede observar su funcionamiento más en detalle.
