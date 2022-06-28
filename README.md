@@ -18,8 +18,10 @@ El mapa de memoria se encuentra detalladamente en el archivo Soc_MemoryMap.csv, 
 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/108309588/176071226-d147b9cd-396d-4e6a-9a31-3f6637662b94.png" />
+    <img src="https://user-images.githubusercontent.com/108309588/176072053-f07c7882-f81c-48ca-8262-724c5385cf17.png" />
 </p>
+
+	
 
 
 
