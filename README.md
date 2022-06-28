@@ -24,26 +24,24 @@ El mapa de memoria se encuentra detalladamente en el archivo Soc_MemoryMap.csv, 
 
 
 A continuación haremos una breve explicación del Soc, el firmware y los perfiféricos integrados al Soc junto a sus respectivos links en donde se puede observar su funcionamiento más en detalle.
-SoC 🤖
 
-En este enlace se describe la arquitectura del robot cartógrafo y el proceso que se llevo a cabo usando el entorno Litex para el ensamble y la integración del microprocesador picoRV32, el bus de datos Wishbone y los diferentes módulos de los periféricos que componen el robot. Para mas informacion remitase a Soc.
-Firmware 👨‍💻
+# SoC 🤖
 
-Dentro del enlace de firmware se encuentra la información del código usado para el desarrollo del funcionamiento del robot cartógrafo, de igual forma se puede observar la explicación de las funciones que se encuentran dentro del archivo main.c. Para mas informacion remitase a firmware.
-Periféricos 🔌
 
-Aquí presentamos una lista de los periféricos usados en el robot cartógrafo, cada uno de estos links mostraran el módulo en verilog y a su vez se hace una explicación detallada del código utilizado para el funcionamiento del módulo de cada periférico.
+En este enlace se describe la arquitectura del dispensador de medicametos y el proceso que se llevo a cabo usando el entorno Litex para el ensamble y la integración del microprocesador picoRV32, el bus de datos Wishbone y los diferentes módulos de los periféricos que componen el dispensador. Para mas informacion remitase a Soc.
 
-    Cámara
-    Radar
+# Firmware 👨‍💻
+
+Dentro del enlace de firmware se encuentra la información del código usado para el desarrollo del funcionamiento del dispensador, de igual forma se puede observar la explicación de las funciones que se encuentran dentro del archivo main.c. Para mas informacion remitase a firmware.
+# Periféricos 🔌
+
+Aquí presentamos una lista de los periféricos usados en el propyecto, cada uno de estos links mostraran el módulo en verilog y a su vez se hace una explicación detallada del código utilizado para el funcionamiento del módulo de cada periférico.
+
     Motores
-    Infrarrojos
-    DFP player mini
-    Bluetooth
-    Arduino
-
-Mantener código cargado FPGA
-Alimentación:
+    Asistente de voz
+    
+    
+# Alimentación:
 
 El proyecto en general, a excepción de los motores, se alimenta con una powerbank de dos puertos que provee de energía tanto a la FPGA como a el Arduino Mega2560.
 
@@ -52,14 +50,15 @@ Mantener Hardware y Firmware FPGA:
 Es claro que al momento de realizar la sintetización del hardware, la compilación del firmware y cargar todo a la FPGA, todo funciona correctamente mientras se mantenga conectada al computador. Sin embargo al momento de desconectar el micro-usb(J6) por el cual se está alimentado y cargando los archivos a la FPGA, se pierden todos los cambios ejecutados sobre esta. Por este motivo se decidio mantener la FPGA encendida en todo momento para que no se pierdan el archivo de hardware y las diferentes compilaciones de firmware que se ejecuten en el proceso de testeo. Cabe aclarar que se esta trabajando con una FPGA - Nexys 4DDR, y que esta tarjeta nos da la posibilidad de cambiar su puerto de alimentacion, por lo que el procedimiento es simple y consiste en cambiar la alimentacion de la FPGA del puerto micro-usb(J6) al Jack(J13).
 
 Para hacer dicho cambio, se cambia la ubicacion de el jumper JP3 dependiendo de la alimentacion que se desee utilizar. (NOTA : La tension en el Jack(J13) debe ser 5V exclusivamente para mas informacion remitase a Nexys4DDR).
-Pruebas de Funcionamiento 🎬
+
+# Pruebas de Funcionamiento 🎬
 
 En los siguientes enlaces se encuentran los videos correspondientes a las pruebas de funcionamiento realizadas al robot cartógrafo, en ellos se puede observar al robot recorriendo el laberinto de forma autónoma a medida que reconoce los colores de las paredes. De igual forma, se observa simultaneamente la impresión del mapeo realizado por el robot que se envía a un celular por medio de bluetooth.
 
     Video 1
     Video 2
 
-Problemas Presentados :shipit: ⚠️
+# Problemas Presentados :shipit:  ⚠️
 
 Durante la realización del proyecto se presentaron diversos problemas, los más significativos fueron los siguientes:
 
