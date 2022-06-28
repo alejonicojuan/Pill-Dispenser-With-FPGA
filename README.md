@@ -6,9 +6,8 @@
 * Nicolas Moreno Zamora 🧑‍💻
 * Alejandro Fernandez Astaiza 🧑‍💼
 
-Este es el repositorio del proyecto final de la asignatura Electrónica Digital II del semestre 2022-1 (Universidad Nacional de Colombia - Sede Bogotá). A continuación se mostrará el proyecto de un Dispensador de medicamentos conformado por una arquitectura de SoC, donde a partir de un micropocesador y diferentes periféricos se realizan operaciones que permiten al robot avanzar por un laberinto con el fin de identificar y mapear en una matriz los muros encontrados y el color correspondiente a estos.
+Este es el repositorio del proyecto final de la asignatura **Electrónica Digital II** del semestre 2022-1 (**Universidad Nacional de Colombia - Sede Bogotá**). A continuación se mostrará el proyecto de un Dispensador de medicamentos conformado por una arquitectura de SoC, donde a partir de un micropocesador y diferentes periféricos se realizan operaciones que permiten al dispensador de medicamentos indicarle a un paciente en que horario y que medicamentos debe consumir especificamente.
 
-Screenshot
 
 Los periféricos que se utilizaron en el proyecto, para complementar al procesador, fueron una camara (OV7670), infrarrojos (Sensor de seguidor de línea de 5 canales), un par de motores manejados a partir de un puente H, una conexión bluetooth HC-05, un DFP player mini, un motor paso a paso y un ultrasonido HC-sr04, además tambien se utilizó un microprocesador Arduino Mega 2560 para realizar diferentes procesos que se explican posteriormente.
 
