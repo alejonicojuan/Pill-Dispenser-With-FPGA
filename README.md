@@ -1,4 +1,4 @@
-# Pill-Dispenser-With-FPGA and Alexa
+# Pill-Dispenser-with-FPGA and ALEXA
 
 # Autores 🖋️
 
