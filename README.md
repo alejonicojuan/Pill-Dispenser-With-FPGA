@@ -2,11 +2,11 @@
 
 # Autores 🖋️
 
-    # Juan Manuel Sarmiento 🧑‍🔧
-    # Nicolas Moreno Zamora 🧑‍💻
-    # Alejandro Fernandez Astaiza 🧑‍💼
+* Juan Manuel Sarmiento 🧑‍🔧
+* Nicolas Moreno Zamora 🧑‍💻
+* Alejandro Fernandez Astaiza 🧑‍💼
 
-Este es el repositorio del proyecto final de la asignatura Electrónica Digital II del semestre 2021-1 (Universidad Nacional de Colombia - Sede Bogotá). A continuación se mostrará el proyecto de un Robot Cartográfico conformado por una arquitectura de SoC, donde a partir de un micropocesador y diferentes periféricos se realizan operaciones que permiten al robot avanzar por un laberinto con el fin de identificar y mapear en una matriz los muros encontrados y el color correspondiente a estos.
+Este es el repositorio del proyecto final de la asignatura Electrónica Digital II del semestre 2022-1 (Universidad Nacional de Colombia - Sede Bogotá). A continuación se mostrará el proyecto de un Dispensador de medicamentos conformado por una arquitectura de SoC, donde a partir de un micropocesador y diferentes periféricos se realizan operaciones que permiten al robot avanzar por un laberinto con el fin de identificar y mapear en una matriz los muros encontrados y el color correspondiente a estos.
 
 Screenshot
 
