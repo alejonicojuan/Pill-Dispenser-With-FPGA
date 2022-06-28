@@ -51,6 +51,8 @@ Es claro que al momento de realizar la sintetización del hardware, la compilaci
 
 Para hacer dicho cambio, se cambia la ubicacion de el jumper JP3 dependiendo de la alimentacion que se desee utilizar. (NOTA : La tension en el Jack(J13) debe ser 5V exclusivamente para mas informacion remitase a Nexys4DDR).
 
+# Modelamiento 3D:
+
 # Pruebas de Funcionamiento 🎬
 
 En los siguientes enlaces se encuentran los videos correspondientes a las pruebas de funcionamiento realizadas al robot cartógrafo, en ellos se puede observar al robot recorriendo el laberinto de forma autónoma a medida que reconoce los colores de las paredes. De igual forma, se observa simultaneamente la impresión del mapeo realizado por el robot que se envía a un celular por medio de bluetooth.
