@@ -11,7 +11,12 @@ Este es el repositorio del proyecto final de la asignatura **Electrónica Digita
 
 Los periféricos que se utilizaron en el proyecto, para complementar al procesador, fueron el asistente de voz de Alexa, el modulo Nodemcu V3 (ESP 8266) y un motor paso a paso (28byj-48).
 
-El diagrama que describe cómo se encuentra conformado el **dispensador de medicamentos** y las diversas conexiones entre el SoC, el microprocesador, el modulo Nodemcu y los periféricos usados es el siguiente:
+El diagrama que describe cómo se encuentra conformado el **Prototipo** y las diversas conexiones entre el SoC, el microprocesador, el modulo Nodemcu y los periféricos usados es el siguiente:
+
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/108309588/176550284-313a0b5f-a429-49bf-b760-07ccb335a3a7.png" />
+</p>
 
 
 El mapa de memoria se encuentra detalladamente en el archivo Soc_MemoryMap.csv, las bases correspondientes para cada driver del SoC son las siguientes:
