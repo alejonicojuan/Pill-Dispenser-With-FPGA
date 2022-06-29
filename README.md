@@ -15,9 +15,8 @@ El diagrama que describe cómo se encuentra conformado el **Prototipo** y las di
 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/108309588/176550284-313a0b5f-a429-49bf-b760-07ccb335a3a7.png" />
+    <img src="https://user-images.githubusercontent.com/108309588/176552682-5271cb0a-4ee6-4898-a871-bbca0509ab17.png" />
 </p>
-
 
 El mapa de memoria se encuentra detalladamente en el archivo Soc_MemoryMap.csv, las bases correspondientes para cada driver del SoC son las siguientes:
 
