@@ -43,8 +43,8 @@ Dentro del enlace de firmware se encuentra la información del código usado par
 
 Aquí presentamos una lista de los periféricos usados en el propyecto, cada uno de estos links mostraran el módulo en verilog y a su vez se hace una explicación detallada del código utilizado para el funcionamiento del módulo de cada periférico.
 
-    Motores
-    Asistente de voz
+    Motor 28byj-48
+    Modulo Nodemcu (ESP8266) controlado por protocolo UART
     
     
 # Alimentación:
@@ -58,6 +58,14 @@ Es claro que al momento de realizar la sintetización del hardware, la compilaci
 Para hacer dicho cambio, se cambia la ubicacion de el jumper JP3 dependiendo de la alimentacion que se desee utilizar. (NOTA : La tension en el Jack(J13) debe ser 5V exclusivamente para mas informacion remitase a Nexys4DDR).
 
 # Modelamiento 3D:
+
+
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/108309588/176554486-9ee4dbfe-b2cf-4a76-8c09-5ecde2f6aec9.png" />
+</p>
+
+
 
 # Pruebas de Funcionamiento 🎬
 
