@@ -62,19 +62,3 @@ El proyecto en general se alimenta directamente de la red domiciliaria a excepci
 
 			
 
-# Pruebas de Funcionamiento 🎬
-
-En los siguientes enlaces se encuentran los videos correspondientes a las pruebas de funcionamiento realizadas al robot cartógrafo, en ellos se puede observar al robot recorriendo el laberinto de forma autónoma a medida que reconoce los colores de las paredes. De igual forma, se observa simultaneamente la impresión del mapeo realizado por el robot que se envía a un celular por medio de bluetooth.
-
-    
-    <p><a href="[https://silicodevalley.com](https://drive.google.com/file/d/1nwMfwgOULaR2qXANErRBE1Wj-4saF7MU/view?usp=sharing)" target="_blank">Este enlace</a> es un hipervínculo absoluto (externo).</p>
-    
-    Video 2
-
-# Problemas Presentados :shipit:  ⚠️
-
-Durante la realización del proyecto se presentaron diversos problemas, los más significativos fueron los siguientes:
-
-    Detección de colores: Después de realizar distintas pruebas al módulo de la cámara encargado de analizar las imágenes capturadas, notamos que se presentaban problemas al momento de detectar los colores ya que en algunas ocasiones no se detectaba el color correcto, esto se puede evidenciar en los videos de prueba de funcionamiento del robot cartógrafo en donde el robot detecta el color erroneo en algunas paredes del laberinto. Este problema se debe a que, por las limitaciones de la cámara utilizada, cuando la iluminación del ambiente no es ideal la captura de datos es erronea y la activación de los pixeles RGB no se da de forma correcta.
-    Módulo Bluetooth: Se nos presento otro inconveniente al tratar de implementar el módulo bluetooth HC-05 con un periférico UART generado en la FPGA, a pesar de que se tuvo en cuenta los baudios a los que trabajaba el dispositivo (9600), no pudimos lograr que mediante de la FPGA pudieramos enviar datos por bluetooth. Debido a ello, decidimos realizar la implementación de la comunicación bluetooth con uno de los seriales que presta el Arduino Mega 2560 (tanto para recepción como para envío de información).
-    Motorreductores: En tanto a los motorreductores, al hacer pruebas de funcionamiento del robot cartógrafo, nos percatamos que perdían potencia a medida que ejecutabamos prueba tras prueba, esto resultaba en que los tiempos de giro variaran cada vez, y que el carro no quedase orientado correctamente en la dirección que está supuesto a tomar. Para ese entonces teniamos energizados los motores con una bateria de 9V externa que alimentaba el puente H con el cual funcionaban los motores. Por lo tanto optamos por alimentar el puente H con 12V suministrados por 8 pilas recargables AA en serie, de está manera podemos asegurar que cada vez que realizemos pruebas los motores del motor funcionen a la misma potencia.
