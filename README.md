@@ -24,8 +24,9 @@ El mapa de memoria se encuentra detalladamente en el archivo Soc_MemoryMap.csv, 
 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/108309588/176072053-f07c7882-f81c-48ca-8262-724c5385cf17.png" />
+    <img src="https://user-images.githubusercontent.com/108309588/176672848-5782f690-c615-4ed1-8e38-c178c0d2058f.png" />
 </p>
+
 
 
 
@@ -49,29 +50,26 @@ Aquí presentamos una lista de los periféricos usados en el propyecto, cada uno
     
 # Alimentación:
 
-El proyecto en general, a excepción de los motores, se alimenta con una powerbank de dos puertos que provee de energía tanto a la FPGA como a el Arduino Mega2560.
-
-Mantener Hardware y Firmware FPGA:
-
-Es claro que al momento de realizar la sintetización del hardware, la compilación del firmware y cargar todo a la FPGA, todo funciona correctamente mientras se mantenga conectada al computador. Sin embargo al momento de desconectar el micro-usb(J6) por el cual se está alimentado y cargando los archivos a la FPGA, se pierden todos los cambios ejecutados sobre esta. Por este motivo se decidio mantener la FPGA encendida en todo momento para que no se pierdan el archivo de hardware y las diferentes compilaciones de firmware que se ejecuten en el proceso de testeo. Cabe aclarar que se esta trabajando con una FPGA - Nexys 4DDR, y que esta tarjeta nos da la posibilidad de cambiar su puerto de alimentacion, por lo que el procedimiento es simple y consiste en cambiar la alimentacion de la FPGA del puerto micro-usb(J6) al Jack(J13).
-
-Para hacer dicho cambio, se cambia la ubicacion de el jumper JP3 dependiendo de la alimentacion que se desee utilizar. (NOTA : La tension en el Jack(J13) debe ser 5V exclusivamente para mas informacion remitase a Nexys4DDR).
+El proyecto en general se alimenta directamente de la red domiciliaria a excepción de los motores que se alimentan con una bateria de 9V.
 
 # Modelamiento 3D:
 
 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/108309588/176554486-9ee4dbfe-b2cf-4a76-8c09-5ecde2f6aec9.png" />
+    <img src="https://user-images.githubusercontent.com/108309588/176673113-eb866c6a-7837-4e9c-8fee-f00a424d7116.png" />
 </p>
 
-
+			
 
 # Pruebas de Funcionamiento 🎬
 
 En los siguientes enlaces se encuentran los videos correspondientes a las pruebas de funcionamiento realizadas al robot cartógrafo, en ellos se puede observar al robot recorriendo el laberinto de forma autónoma a medida que reconoce los colores de las paredes. De igual forma, se observa simultaneamente la impresión del mapeo realizado por el robot que se envía a un celular por medio de bluetooth.
 
-    Video 1
+    <p>Este es un <a href="https://drive.google.com/file/d/1nwMfwgOULaR2qXANErRBE1Wj-4saF7MU/view?usp=sharing">Video 1
+                  a> 
+    </p>    
+    
     Video 2
 
 # Problemas Presentados :shipit:  ⚠️
