@@ -55,8 +55,10 @@ El proyecto en general se alimenta directamente de la red domiciliaria a excepci
 # Modelamiento 3D:
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/108309588/176673113-eb866c6a-7837-4e9c-8fee-f00a424d7116.png" />
+    <img src="https://user-images.githubusercontent.com/108309588/176677816-12358b6a-883e-4665-a33b-a59210c5ce6c.png" />
 </p>
+
+
 
 # Cronograma
 <p align="center">
