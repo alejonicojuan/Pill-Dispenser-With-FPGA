@@ -37,6 +37,11 @@ A continuación haremos una breve explicación del Soc, el firmware y los perfif
 
 En este enlace se describe la arquitectura del dispensador de medicametos y el proceso que se llevo a cabo usando el entorno Litex para el ensamble y la integración del microprocesador picoRV32, el bus de datos Wishbone y los diferentes módulos de los periféricos que componen el dispensador. Para mas informacion remitase a Soc.
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/108309588/176720051-8c4cc959-87d8-4153-b1f5-c67f5d8a8947.png" />
+</p>
+
+
 # Firmware 👨‍💻
 
 Dentro del enlace de firmware se encuentra la información del código usado para el desarrollo del funcionamiento del dispensador, de igual forma se puede observar la explicación de las funciones que se encuentran dentro del archivo main.c. Para mas informacion remitase a firmware.
