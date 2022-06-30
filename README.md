@@ -66,9 +66,8 @@ El proyecto en general se alimenta directamente de la red domiciliaria a excepci
 
 En los siguientes enlaces se encuentran los videos correspondientes a las pruebas de funcionamiento realizadas al robot cartógrafo, en ellos se puede observar al robot recorriendo el laberinto de forma autónoma a medida que reconoce los colores de las paredes. De igual forma, se observa simultaneamente la impresión del mapeo realizado por el robot que se envía a un celular por medio de bluetooth.
 
-    <p>Este es un <a href="https://drive.google.com/file/d/1nwMfwgOULaR2qXANErRBE1Wj-4saF7MU/view?usp=sharing">Video 1
-                  a> 
-    </p>    
+    
+    <p><a href="[https://silicodevalley.com](https://drive.google.com/file/d/1nwMfwgOULaR2qXANErRBE1Wj-4saF7MU/view?usp=sharing)" target="_blank">Este enlace</a> es un hipervínculo absoluto (externo).</p>
     
     Video 2
 
