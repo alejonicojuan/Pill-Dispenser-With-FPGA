@@ -63,11 +63,31 @@ El proyecto en general se alimenta directamente de la red domiciliaria a excepci
     <img src="https://user-images.githubusercontent.com/108309588/176677816-12358b6a-883e-4665-a33b-a59210c5ce6c.png" />
 </p>
 
+# Pruebas de funcionamiento
+
+
+
+<pre>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/108309588/176788925-0ae2453f-a8ef-4368-8228-df15cb694597.png" />
+</p>
+
+
+<p><a href="https://drive.google.com/file/d/1nwMfwgOULaR2qXANErRBE1Wj-4saF7MU/view?usp=sharing">VIDEO 1</a> </p>
+</pre>
 
 
 # Cronograma
 <p align="center">
     <img src="https://user-images.githubusercontent.com/108309588/176677528-ccdd8b87-98d2-42a3-8ed3-be1d7e44a676.png" />
 </p>
+
+# Funcionamiento prototipo
+
+
+
+<pre>
+<p><a href="https://drive.google.com/file/d/1PCiIACdgnU7rAMChjhjHfwjbTZjoxdYl/view?usp=sharing">VIDEO FINAL</a> </p>
+</pre>
 
 
